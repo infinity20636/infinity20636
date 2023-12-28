@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/CormorantGaramond-SemiBold.eot');
+    src: url('../fonts/CormorantGaramond-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-SemiBold.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-SemiBold.woff') format('woff'),
+        url('../fonts/CormorantGaramond-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/CormorantGaramond-Regular.eot');
+    src: url('../fonts/CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-Regular.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Regular.woff') format('woff'),
+        url('../fonts/CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/CormorantGaramond-Bold.eot');
+    src: url('../fonts/CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Bold.woff') format('woff'),
+        url('../fonts/CormorantGaramond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-Regular.eot');
+    src: url('../fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EBGaramond-Regular.woff2') format('woff2'),
+        url('../fonts/EBGaramond-Regular.woff') format('woff'),
+        url('../fonts/EBGaramond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-Bold.eot');
+    src: url('../fonts/EBGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EBGaramond-Bold.woff2') format('woff2'),
+        url('../fonts/EBGaramond-Bold.woff') format('woff'),
+        url('../fonts/EBGaramond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+

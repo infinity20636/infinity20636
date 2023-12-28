@@ -1,0 +1,149 @@
+@import './fonts.css';
+@import './reset.css';
+@import './media.css';
+
+.frame__container {
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+.header__nav {
+	height: 70px;
+	width: 100%;
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: rgb(0, 0, 0);
+	border-radius: 20px;
+}
+.nav__logo {
+	margin: 0 120px;
+}
+.inst {
+	width: 150px;
+	padding-left: 7px;
+}
+.manu__nav-link {
+	display: flex;
+	column-gap: 80px;
+}
+.nav__link:hover {
+	color: #cdaa7d;
+	text-decoration: underline;
+}
+
+.nav__link {
+	height: 23px;
+	color: #fff;
+	transition: 0.4s;
+}
+.burger__btn {
+	color: #fff;
+}
+.header__nav::before {
+	content: '';
+	position: absolute;
+	max-width: 1262px;
+	height: 1px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: -1px;
+	opacity: 0.5;
+	background-color: #fff;
+}
+.burger {
+	width: 50px;
+	height: 20px;
+	margin-left: 113px;
+}
+
+.title__name-font {
+	height: 1038px;
+	background-image: url('../src/font.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 260px;
+}
+.name-text {
+	width: 600px;
+	color: var(--white, #fff);
+	text-align: center;
+	font-family: 'Garamond';
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 370px;
+}
+.drop__down {
+	width: 168px;
+}
+.drop__down > span {
+	margin-left: 20px;
+	color: var(--white, #fff);
+	/* p / 18b */
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+}
+.text__inf {
+	color: #fff;
+
+	/* p / 18r */
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 15px 0;
+}
+.text__inf span {
+	display: flex;
+	color: var(--white, #fff);
+	/* h / 24b */
+	font-family: 'Garamond';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	margin-top: 80px;
+	margin-bottom: 25px;
+}
+.burger__manu-inf {
+	top: 0;
+	right: 0;
+	width: 0px;
+	height: 100vh;
+	padding-top: 40px;
+	overflow: hidden;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s;
+	position: fixed;
+}
+.container__manu-inf {
+	width: 315px;
+	height: 760px;
+}
+#burger-inp:checked ~ .burger__manu-inf {
+	width: 475px;
+}
+.burger__close {
+	display: flex;
+	margin-bottom: 15px;
+}
